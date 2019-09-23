@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Kopinya Kita</string>
+    <string name="name_kopi">Kopinya Kita</string>
+    <string name="lorem">Kopinya Kita</string>
+    <string-array name="data_name">
+        <item>Americano</item>
+        <item>Cappucino</item>
+        <item>Single Espresso</item>
+        <item>Caramel Macchiato</item>
+        <item>White Chocolate Mocha</item>
+        <item>Black Forest Mouses</item>
+        <item>Black Forest Smoothie</item>
+        <item>Coffee Whipped Cream</item>
+        <item>Double Chocolate Mocha</item>
+        <item>Chocolate Coffee Smoothie</item>
+    </string-array>
+    <string-array name="data_description">
+        <item>Rp 25.000</item>
+        <item>Rp 30.000</item>
+        <item>Rp 26.000</item>
+        <item>Rp 24.000</item>
+        <item>Rp 23.000</item>
+        <item>Rp 28.000</item>
+        <item>Rp 27.000</item>
+        <item>Rp 25.000</item>
+        <item>Rp 30.000</item>
+        <item>Rp 26.000</item>
+    </string-array>
+    <array name="data_photo">
+        <item>@drawable/americano</item>
+        <item>@drawable/cappuccino</item>
+        <item>@drawable/single_espresso</item>
+        <item>@drawable/caramel_macchiato</item>
+        <item>@drawable/white_chocolate_mocha</item>
+        <item>@drawable/black_forest_mousse</item>
+        <item>@drawable/black_forest_smoothie</item>
+        <item>@drawable/coffee_whipped_cream</item>
+        <item>@drawable/double_chocolate_mocha</item>
+        <item>@drawable/chocolate_coffee_smoothie</item>
+    </array>
+</resources>

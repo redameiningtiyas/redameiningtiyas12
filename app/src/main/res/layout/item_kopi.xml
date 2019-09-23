@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+    <ImageView
+        android:id="@+id/img_photo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:scaleType="fitXY" />
+    <TextView
+        android:id="@+id/txt_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_toEndOf="@id/img_photo"
+        android:text="@string/name_kopi"
+        android:textColor="#8B4513"
+        android:fontFamily="@font/lobster_regular"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/txt_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#F5FFFA"
+        android:layout_below="@id/txt_name"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/img_photo"
+        android:ellipsize="end"
+        android:fontFamily="@font/lb"
+        android:maxLines="3"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:text="@string/lorem" />
+</RelativeLayout>
